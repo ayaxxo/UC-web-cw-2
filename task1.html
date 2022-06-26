@@ -8,14 +8,30 @@
             text-align: center;}
 
         h2{
-            background-color: #faedcd;width: fit-content;}
+            background-color: #d4a37391;width: fit-content;}
 
-        p{ background-color: #faedcd;width: fit-content;}
+        p{ background-color: #d4a37367;width: fit-content;}
 
-        h3{background-color: #faedcd;width: fit-content;}
+        h3{background-color: #d4a37396;width: fit-content;}
 
         body{border-style:dotted;border-color: black;}
 
+        .card{ width: 500px; background-color: #fefae0;text-align: center;margin:30px }
+        #font{color:white;}
+
+        .img1 {
+   position: absolute;
+   top: 25px;
+   right: 25px;
+   margin:30px ;
+}
+
+.img2{
+   position: absolute;
+   top: 200px;
+   right: 200px;
+   margin:30px;
+}
 
     </style>
 
@@ -23,13 +39,33 @@
 
 
 <body>
-    <div style="padding: 25px;">        
-        <h1> Steak & Shake</h1>
-        <h2> New York Steak</h2>
-        <p>A freshly cut 8 oz steak served with delicious mashed potatoes and sauteed vegetables</p>
+    <h1> Steak & Shake</h1>
+    <div class="card">        
+        <h2 id="font"> New York Steak</h2>
+        <p>A freshly cut 8 oz steak served with delicious mashed potatoes and vegetables</p>
         <h3>Price: 8.750 kd</h3>
-</div>
+        <hr style="border-style:solid;color:black">
+    </div>
     
+        <div class="card">        
+            <h2 style="color:white"> Cheesy Burger</h2>
+            <p>A juicy meat burger stuffed with mushrooms,pickles and barbeque sauce </p>
+            <h3>Price: 2.750 kd</h3>
+            <hr style="border-style:solid;color:black">
+        </div>
+
+        <div class="card">        
+                <h2 style="color:white"> Strawberry Milkshake</h2>
+                <p>Our bestselling strawberry milkshake topped with delicious whipped cream and fresh strawberries</p>
+                <h3>Price: 1.250 kd</h3>
+        </div>
+
+          
+            <img src="./assets/burger.jpg" alt="Cheesy burger" width="300px" class="img1" >
+            <img src="./assets/StrawberryMilkshake4.jpg" alt="Strawberry Milkshake" width="300px" class="img2">
+
+                
+            
     
     </body>
 
